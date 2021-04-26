@@ -1,9 +1,9 @@
 package com.techmonad.learning.finch
 
 import io.finch._
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class MainTest extends FunSuite {
+class MainTest extends AnyFunSuite {
   test("healthcheck") {
     assert(Main.healthcheck(Input.get("/")).awaitValueUnsafe() == Some("OK"))
   }
