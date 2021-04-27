@@ -1,6 +1,6 @@
 val finchVersion = "0.26.1"
 val circeVersion = "0.13.0"
-val scalatestVersion = "3.0.9"
+val scalatestVersion = "3.2.8"
 
 lazy val root = (project in file("."))
   .settings(
