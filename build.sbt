@@ -1,4 +1,4 @@
-val finchVersion = "0.32.1"
+val finchVersion = "0.33.0"
 val circeVersion = "0.14.1"
 val scalatestVersion = "3.2.12"
 
