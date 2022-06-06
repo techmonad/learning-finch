@@ -1,5 +1,5 @@
 val finchVersion = "0.33.0"
-val circeVersion = "0.14.1"
+val circeVersion = "0.14.2"
 val scalatestVersion = "3.2.12"
 
 lazy val root = (project in file("."))
