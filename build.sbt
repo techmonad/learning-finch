@@ -7,7 +7,7 @@ lazy val root = (project in file("."))
     organization := "com.techmonad",
     name := "learning-finch",
     version := "0.0.1-SNAPSHOT",
-    scalaVersion := "2.13.9",
+    scalaVersion := "2.13.10",
     libraryDependencies ++= Seq(
       "com.github.finagle" %% "finchx-core"  % finchVersion,
       "com.github.finagle" %% "finchx-circe"  % finchVersion,
